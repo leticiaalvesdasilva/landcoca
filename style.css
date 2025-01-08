@@ -66,6 +66,7 @@ header .navigation li a {
     display: flex;
     align-items: center;
     justify-content:space-between ;
+    min-width: 320px;
 }
 
 .container .text{
@@ -169,3 +170,5 @@ header .navigation li a {
 .boxImg .img4{
     transform: rotate(-15deg);
 }
+
+/* media querier */

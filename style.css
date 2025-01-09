@@ -171,4 +171,57 @@ header .navigation li a {
     transform: rotate(-15deg);
 }
 
+/* menu hamburguer */
+header .menu-hamburguer ul {
+    display: flex;
+    cursor: pointer;
+}
+
+header .menu-hamburguer li{
+    width: 2rem;
+    height: 0.3rem;
+    margin: 0.4rem 0;
+    background-color: #d12323;
+    transition: 0.3s ease;
+}
+
+.menu-hamburguer li a:home{
+    transform:  translate(0, 0,65rem) rotate(-45deg);
+}
+
+.menu-hamburguer li a:produts{
+    opacity: 0;
+}
+
+.change .bar1{
+    transform:  translate(0, -0,65rem) rotate(45deg);
+}
+
+/* ===menu hamburguer=== */
+
+
 /* media querier */
+Extra small
+@media (min-width:0px) {
+    .menu-hamburguer{
+        display: block;
+    }
+    
+    .navigation{
+        display: none;
+    }
+
+    head {
+        background-color: aqua;  
+    }
+}
+
+@media (min-width:576px){
+  head{
+        background-color: #ffff;  
+    }
+
+    }
+
+
+/* ====media querier=== */
